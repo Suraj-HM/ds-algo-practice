@@ -32,3 +32,13 @@ class MyQueue {
         return stack1.isEmpty();
     }
 }
+
+
+
+/* 
+ * Use of such an implementaion of queue
+ * The application for this implementation is to separate read & write of a queue
+ * in multi-processing. One of the stack is for read, and another is for write. 
+ * They only interfere each other when the former one is full or latter is empty.
+ * 
+*/
