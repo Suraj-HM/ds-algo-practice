@@ -21,7 +21,7 @@ class Solution {
         inOrder(list, root);
         return list;
     }
-    public void inOrder(List list, TreeNode root) {
+    public void inOrder(List<Integer> list, TreeNode root) {
         if(root == null) return;
         inOrder(list, root.left);
         list.add(root.val);

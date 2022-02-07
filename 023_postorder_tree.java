@@ -21,7 +21,7 @@ class Solution {
         postOrder(list, root);
         return list;
     }
-    public void postOrder(List list, TreeNode root) {
+    public void postOrder(List<Integer> list, TreeNode root) {
         if(root == null) return;
         postOrder(list, root.left);
         postOrder(list, root.right);
