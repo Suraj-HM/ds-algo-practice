@@ -1,4 +1,6 @@
 class Solution {
+    // m -> len of array
+    // n -> required amount
     public int coin_count(int S[], int m, int n) {
         // If n is 0 then there is 1 solution
         // (do not include any coin)
